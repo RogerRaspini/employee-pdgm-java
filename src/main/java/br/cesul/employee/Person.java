@@ -20,6 +20,9 @@ public abstract class Person {
         this.sex = sex;
     }
 
+
+
+    
     public abstract Double calculateIncome() throws InvalidParticipationException;
 
     public String getName() {

@@ -22,7 +22,7 @@ public abstract class Person {
 
 
 
-    
+
     public abstract Double calculateIncome() throws InvalidParticipationException;
 
     public String getName() {

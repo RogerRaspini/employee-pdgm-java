@@ -28,7 +28,9 @@ public class Employee extends Person {
         this.pis = pis;
         this.ctps = ctps;
     }
-    
+
+
+
     @Override
     public Double calculateIncome() {
         double inssDiscount = salary * INSS_RATE;
